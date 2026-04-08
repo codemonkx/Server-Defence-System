@@ -10,7 +10,12 @@ const { ActivityLogModel } = require("../models/activityLog.models");
 const { UniversalLogModel } = require("../models/universalLog.models");
 const { logEvent } = require("../utils/universalLogger");
 const { recordFailedLogin, ipRequestMap, ipFailedLogins } = require("../middlewares/activity.middleware");
-const normalizeIP = (ip) => ip ? ip.replace(/^::ffff:/, "") : "unknown";
+const normalizeIP = (ip) => {
+    if (!ip) return "unknown";
+    let normalized = ip.replace(/^::ffff:/, "");
+    if (normalized === "::1" || normalized === "::ffff:127.0.0.1") return "127.0.0.1";
+    return normalized;
+};
 const os = require("os");
 const checkDiskSpace = require("check-disk-space").default;
 
@@ -403,6 +408,7 @@ userRouter.post("/login", async (req, res) => {
         }
       });
     } else {
+      recordFailedLogin(normalizeIP(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "unknown"));
       res.status(404).json({ msg: "user does not exit. Signup first!!" });
     }
   } catch (error) {

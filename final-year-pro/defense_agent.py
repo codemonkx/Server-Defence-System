@@ -122,7 +122,7 @@ def classify_attack(state: AgentState) -> AgentState:
         print(f"[DETECT] THRESHOLD EXCEEDED: Volumetric (DoS)")
         return state
 
-    if (fails > 10 or (code in (401, 403) and rpm > 30)) and ("/login" in endpoint or "/auth" in endpoint):
+    if (fails > 5 or (code in (401, 403) and rpm > 30)) and ("/login" in endpoint or "/auth" in endpoint):
         state["attack_type"] = "brute_force"
         print(f"[DETECT] THRESHOLD EXCEEDED: Brute Force")
         return state
