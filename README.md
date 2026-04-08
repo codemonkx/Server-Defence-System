@@ -1,6 +1,5 @@
 # Project Defend: AI-Powered Cyber Defense System
 
-![Project Header](Elearning-Platform-Using-MERN/screenshots/home_page.png)
 
 ## 🛡️ Overview
 
@@ -97,8 +96,7 @@ We have provided a series of batch files to demonstrate the system's capabilitie
 ---
 
 ## 📈 ML Performance
-The system uses a weighted voting ensemble. You can find the anomaly score distributions below:
-![Anomaly Scores](final-year-pro/data/anomaly_score_distributions.png)
+The system uses a weighted voting ensemble.
 
 ## 📄 License
 This project is for educational and research purposes. 
