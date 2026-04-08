@@ -1,0 +1,12 @@
+{
+  "watch": ["."],
+  "ignore": [
+    "arivu_logs_export.json",
+    "db.json",
+    "backend_crash.log",
+    "npm_install.log",
+    "node_modules"
+  ],
+  "ext": "js,mjs,json",
+  "restartable": "rs"
+}

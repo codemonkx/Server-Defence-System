@@ -1,0 +1,139 @@
+[
+    {
+        "_id": "6809fde83102003987290c97",
+        "title": "Complete Machine Learning",
+        "description": "Complete Machine Learning and Deep Learning Course",
+        "category": "AIML",
+        "teacher": "Mrinal Bhatt",
+        "teacherId": "67a10c82d59a00a08d5ceaba",
+        "price": 10000,
+        "img": "https://www.analyticssteps.com/backend/media/thumbnail/8530608/992893_1620296010_Machine%20Learning%20(1)Banner.jpg",
+        "videos": [
+            "681664aae6e8be70da773c73",
+            "682db4f229c25aa8f81ddaae",
+            "683c1554bfe13b9aa4c6a799"
+        ],
+        "createdAt": "2025-04-24T09:01:28.214Z"
+    },
+    {
+        "_id": "680a31fa8ccd1c9bdc901e32",
+        "title": "Docker",
+        "description": "Docker Course for Beginners",
+        "category": "Tech",
+        "teacher": "Michael Chen",
+        "price": 5000,
+        "img": "https://images.unsplash.com/photo-1605745341112-85968b193ef5?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2025-04-25T04:25:11.192Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0001",
+        "title": "Financial Analysis Masterclass",
+        "description": "Learn to analyze financial statements like a pro. Perfect for aspiring investors and business analysts.",
+        "category": "Business",
+        "teacher": "Michael Chen",
+        "price": 4999,
+        "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0002",
+        "title": "Digital Marketing Strategy",
+        "description": "Master SEO, SEM, and social media marketing to grow your business online.",
+        "category": "Business",
+        "teacher": "Sarah Johnson",
+        "price": 3500,
+        "img": "https://images.unsplash.com/photo-1432888622747-4eb9a8f2c1d9?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0003",
+        "title": "Advanced React Patterns",
+        "description": "Take your React skills to the next level with advanced hooks, context, and performance optimization.",
+        "category": "Tech",
+        "teacher": "David Miller",
+        "price": 7500,
+        "img": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0004",
+        "title": "Full Stack Web Development with Next.js",
+        "description": "Build modern, scalable applications with the latest Next.js features and Tailwind CSS.",
+        "category": "Tech",
+        "teacher": "Alex Rivera",
+        "price": 9000,
+        "img": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0005",
+        "title": "Mindfulness and Emotional Intelligence",
+        "description": "Develop self-awareness and resilience with practical mindfulness techniques for daily life.",
+        "category": "Personal Development",
+        "teacher": "Emma Wilson",
+        "price": 2000,
+        "img": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0006",
+        "title": "Public Speaking Confidence",
+        "description": "Overcome fear and deliver powerful presentations that captivate your audience.",
+        "category": "Personal Development",
+        "teacher": "James Taylor",
+        "price": 2500,
+        "img": "https://images.unsplash.com/photo-1475721027187-402473394859?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0007",
+        "title": "Python for Data Analysis",
+        "description": "Learn Pandas, NumPy, and Matplotlib to perform professional data analysis tasks.",
+        "category": "Data Science",
+        "teacher": "Dr. Robert King",
+        "price": 5500,
+        "img": "https://images.unsplash.com/photo-1551288049-bbbda536639a?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0008",
+        "title": "SQL Masterclass: zero to Hero",
+        "description": "Master PostgreSQL and MySQL to manage data efficiently for any application.",
+        "category": "Data Science",
+        "teacher": "Linda Gonzalez",
+        "price": 4000,
+        "img": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0009",
+        "title": "AWS Certified Solutions Architect",
+        "description": "Pass your AWS certification with this comprehensive guide to cloud architecture.",
+        "category": "Tech",
+        "teacher": "Ryan Anderson",
+        "price": 8500,
+        "img": "https://images.unsplash.com/photo-1558494949-ef010cbdcc48?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    },
+    {
+        "_id": "680b1234567890abcdef0010",
+        "title": "Entrepreneurship 101",
+        "description": "Everything you need to know to start your own successful business from scratch.",
+        "category": "Business",
+        "teacher": "Mark Stevens",
+        "price": 6000,
+        "img": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop",
+        "videos": [],
+        "createdAt": "2026-02-27T00:00:00.000Z"
+    }
+]

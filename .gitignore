@@ -1,0 +1,61 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+build/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.myp_cache/
+.pytest_cache/
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Api_Key.txt
+id_pass.txt
+google_api_key.txt
+*credential*
+*secret*
+
+# Project Specific Log Exports
+defend_logs_export.json
+arivu_logs_export.json
+telemetry_logs.json
+*.json.bak
+
+# AI Agent Artifacts (Demo specific)
+leaked_db.json
+blocked_ips.json
+captcha_required_ips.json
+cracked_passwords.txt
+agent_output.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

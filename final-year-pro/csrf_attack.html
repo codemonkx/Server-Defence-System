@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CONGRATULATIONS! YOU WON!</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background: #f0f0f0; padding: 50px; }
+        .box { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); display: inline-block; }
+        h1 { color: #d32f2f; }
+        .btn { background: #4caf50; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>🎁 YOU ARE THE 1,000,000th VISITOR!</h1>
+        <p>Click below to claim your free reward!</p>
+        <br><br>
+        <!-- MALICIOUS CSRF LINK -->
+        <!-- When the user clicks this, they are secretly sending a request to the server -->
+        <!-- In a real attack, this could be a hidden <img> or <iframe> that triggers on page load -->
+        <a href="http://localhost:8080/courses/enroll-demo?courseId=PREMIUM_HACKING_101&userId=demo_user_123" class="btn">CLAIM REWARD NOW</a>
+        
+        <p style="margin-top: 50px; color: #888; font-size: 12px;">* This is a cybersecurity demonstration of a Cross-Site Request Forgery (CSRF) attack.</p>
+    </div>
+</body>
+</html>
